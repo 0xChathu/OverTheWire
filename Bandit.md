@@ -1,4 +1,4 @@
-##Level 0
+## Level 0
 
 Successfully completed. I mamaged to log into via ssh to the overthewire as bandit user via my terminal.
 
