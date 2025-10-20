@@ -39,7 +39,7 @@ cat ./-
 
 and the password for level 2 was - **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
 
-## Level 2 - Level 3
+## Level 2 - Level 3 ✅ 
 
 This is quite hard at first glance. 
 
