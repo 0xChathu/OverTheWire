@@ -39,3 +39,27 @@ cat ./-
 
 and the password for level 2 was - **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
 
+## Level 2 - Level 3
+
+This is quite hard at first glance. 
+
+This one took me forever to solve ... Holy shit bruh .... "--spaces in this filename--"
+
+
+first when we run ls command, there is 
+
+--spaces in this filename--
+
+file. and we cant cat it cuz it has spaces.
+So there are options to neglect spaces when processong. add \ before every space or add "" or '' and quote the filenmae to tell the shell that inside those quote marks ... its a filen name.
+
+Then here comes the other issue.
+when a filename starts with -- or -
+shell inteprete it as a command
+
+so we had to add 
+cat -- "--spaces in this filename--"
+
+Finally cravked the flag - **MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**
+
+
