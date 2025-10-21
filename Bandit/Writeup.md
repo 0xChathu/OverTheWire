@@ -2,7 +2,7 @@
 
 Successfully completed. I managed to log in via ssh to the overthewire as bandit user.
 
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+`ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
 #### Notes 
 Port 2220 is typically used for Secure Shell (SSH) traffic, which enables users to securely access and manage remote systems and devices over a network. It is a common port used for SSH connections, particularly in cases where the default SSH port (22) has been blocked or restricted.
@@ -35,7 +35,7 @@ its like saying " hey ... this is where the file located and process it as shown
 
 so the answer was
 
-cat ./- 
+`cat ./-`
 
 and the password for level 2 was - **263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
 
@@ -51,15 +51,45 @@ first when we run ls command, there is
 --spaces in this filename--
 
 file. and we cant cat it cuz it has spaces.
-So there are options to neglect spaces when processong. add \ before every space or add "" or '' and quote the filenmae to tell the shell that inside those quote marks ... its a filen name.
+So there are options to neglect spaces when processong. add `\` before every space or add "" or '' and quote the filenmae to tell the shell that inside those quote marks ... its a filen name.
 
 Then here comes the other issue.
 when a filename starts with -- or -
 shell inteprete it as a command
 
 so we had to add 
-cat -- "--spaces in this filename--"
+`cat -- "--spaces in this filename--"`
 
 Finally captured the flag - **MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**
 
+## Level 3 - Level 4 ✅ 
+
+This is a quick one.
+
+There was a file included and tried to cat it.
+Did not work ... 
+It happened to be a directory
+So i went to that directory `cd inhere`
+Then nothing was there ...
+
+Took some while to figure out how to see the unseen hidden file.
+
+`ls -la` Boom .... Found that sneaky bastard 
+`cat ...Hiding-From-You`
+
+**2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**
+
+## Level 3 - Level 4 ✅
+
+Interesting 🧐 
+
+This time there were 10 files inside `inhere` directory. 
+
+I had to cat each file and boom ... there was the flag at file07
+
+`cat - '-file07'`
+
+**4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**
+
+## Level 4 - Level 5 ✅
 
