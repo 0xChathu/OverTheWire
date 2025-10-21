@@ -60,6 +60,6 @@ shell inteprete it as a command
 so we had to add 
 cat -- "--spaces in this filename--"
 
-Finally cravked the flag - **MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**
+Finally captured the flag - **MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**
 
 
